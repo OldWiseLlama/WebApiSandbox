@@ -62,4 +62,4 @@ packages/*
 
 # IDE stuff
 .idea/*
-.vc/**
+.vs/**
