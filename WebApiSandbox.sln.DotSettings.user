@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0455f63a_002Dc479_002D42fd_002D8271_002D5b375f64b648/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Invoke_DelegateThrowsHandledException_WritesProblemDetailsToResponseStream" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::04D66B52-AB6C-495B-B091-216194E6E8FF::net5.0::MiddlewareUnitTests.ExceptionHandlingMiddlewareTests.Invoke_DelegateThrowsHandledException_WritesProblemDetailsToResponseStream&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=95f630d7_002Dc18c_002D46ff_002Da962_002Dcf4377bfe751/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Invoke_DelegateThrowsHandledException_WritesProblemDetailsToResponseStream #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::04D66B52-AB6C-495B-B091-216194E6E8FF::net5.0::MiddlewareUnitTests.ExceptionHandlingMiddlewareTests.Invoke_DelegateThrowsHandledException_MapperForBaseTypeExists_WritesProblemDetailsToResponseStream&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

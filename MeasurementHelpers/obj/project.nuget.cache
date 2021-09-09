@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tbbxaVKPFbbWlZ0oWoH7mgRcEdQSrce1V7B0DgSM/SEk7ZsbX/wpdpRE+9ZCLJLJqxG0/xBbRCm33OMMCkdbzw==",
+  "success": true,
+  "projectFilePath": "C:\\demos\\WebApiSandbox\\MeasurementHelpers\\MeasurementHelpers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\heikki.heikkinen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\heikki.heikkinen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

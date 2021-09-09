@@ -1,0 +1,10 @@
+C:\demos\DockerDemo\Generators\bin\Debug\netstandard2.1\Generators.deps.json
+C:\demos\DockerDemo\Generators\bin\Debug\netstandard2.1\Generators.dll
+C:\demos\DockerDemo\Generators\bin\Debug\netstandard2.1\Generators.pdb
+C:\demos\DockerDemo\Generators\obj\Debug\netstandard2.1\Generators.csproj.AssemblyReference.cache
+C:\demos\DockerDemo\Generators\obj\Debug\netstandard2.1\Generators.GeneratedMSBuildEditorConfig.editorconfig
+C:\demos\DockerDemo\Generators\obj\Debug\netstandard2.1\Generators.AssemblyInfoInputs.cache
+C:\demos\DockerDemo\Generators\obj\Debug\netstandard2.1\Generators.AssemblyInfo.cs
+C:\demos\DockerDemo\Generators\obj\Debug\netstandard2.1\Generators.csproj.CoreCompileInputs.cache
+C:\demos\DockerDemo\Generators\obj\Debug\netstandard2.1\Generators.dll
+C:\demos\DockerDemo\Generators\obj\Debug\netstandard2.1\Generators.pdb
