@@ -1,5 +1,0 @@
-C:\demos\DockerDemo\Generators\obj\Debug\netcoreapp3.1\Generators.csproj.AssemblyReference.cache
-C:\demos\DockerDemo\Generators\obj\Debug\netcoreapp3.1\Generators.GeneratedMSBuildEditorConfig.editorconfig
-C:\demos\DockerDemo\Generators\obj\Debug\netcoreapp3.1\Generators.AssemblyInfoInputs.cache
-C:\demos\DockerDemo\Generators\obj\Debug\netcoreapp3.1\Generators.AssemblyInfo.cs
-C:\demos\DockerDemo\Generators\obj\Debug\netcoreapp3.1\Generators.csproj.CoreCompileInputs.cache
