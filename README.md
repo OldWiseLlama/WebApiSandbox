@@ -47,7 +47,14 @@ See projects `Generators` and `MeasurementHelpers` for code. Attributes applied 
  
 
 ## Exception handling middleware
-To be documented
+
+The exception handling middleware is supposed to remove the try-catch boilerplate from controller actions while allowing for exception type inheritance hierarchy aware exception handling.
+The middleware is configured by adding types that implement a `IProblemDetailsMapper` interface. The mapper converts a specific type of exception to an instance of `Microsoft.AspNetCore.Mvc.ProblemDetails` but the response type might as well be a custom structure.
+Then an response is written with the status code specified in the problem details or a default value of 500.
+The used mapper is selected based on the exception type or the exception's base type if a mapper for a specific type is not found. This is repeated until a mapper is found or there is no base type to go to.
+If a mapper is not found the source exception is re-thrown with `ExceptionDispatchInfo.Throw` to preserve the original stack trace.
+The response writing is deleted to a `IResponseWriter` interface so different payload formats can be supported.
+
 
 ## Feature flags
 TODO
