@@ -81,6 +81,7 @@ namespace WebApi
             services.AddSingleton<IPerformanceIndexValues, PerformanceIndexValues>();
             services.AddSingleton<IServiceInterface, AwesomeService>();
             services.Decorate<IServiceInterface, GeneratedServiceInterfaceMetricsDecorator>();
+            services.AddMetricsTrackingMiddleware();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -89,6 +90,7 @@ namespace WebApi
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApi v1"));
             
+            app.UseMetricsAllMiddleware();
             app.UseMiddleware<CorrelationIdMiddleware>();
             
             app.UseMiddleware<ExceptionHandlingMiddleware>();
@@ -101,7 +103,6 @@ namespace WebApi
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
             app.UseHealthChecks("/health");
-
         }
     }
 }

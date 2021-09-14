@@ -44,7 +44,7 @@ namespace WebApi.Controllers
 
             var rng = new Random();
             
-            await _serviceInterface.PerformAsync(TimeSpan.FromMilliseconds(rng.Next(0, 6000)), cancellationToken);
+            await _serviceInterface.PerformAsync(TimeSpan.FromMilliseconds(rng.Next(0, 1000)), cancellationToken);
 
             var number = await _serviceInterface.GetNumberAsync();
             

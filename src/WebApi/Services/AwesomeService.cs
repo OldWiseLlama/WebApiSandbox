@@ -22,7 +22,7 @@ namespace WebApi.Services
 
         public async Task<int> GetNumberAsync()
         {
-            await Task.Delay(1000);
+            await Task.Delay(50);
             return 40;
         }
     }
